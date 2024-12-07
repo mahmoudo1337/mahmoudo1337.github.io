@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="travel_recommendation.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="#">Travel Recommendations</a>
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="/about_us.html">About Us</a></li>
+          <li><a href="/contact_us.html">Contact Us</a></li>
+        </ul>
+        <div class="search-bar">
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Enter a destination or keyword"
+          />
+          <button id="btnSearch">Search</button>
+          <button type="button" id="clrBtn" class="clear-button">Clear</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="hero-content">
+          <h1 class="hero-title">EXPLORE DREAM DESTINATION</h1>
+          <p class="hero-description">
+            It encourages exploration of unfamiliar territories, embracing
+            diverse cultures and landscapes, while pursuing the desired
+            destination that captivates the heart and ignites a sense of wonder.
+          </p>
+          <button class="cta-button">BOOK NOW</button>
+        </div>
+        <div id="result" class="hero-content"></div>
+      </section>
+    </main>
+    <script src="travel_recommendation.js"></script>
+  </body>
+</html>
